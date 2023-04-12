@@ -84,8 +84,11 @@ body {
   background-color: #0536FC;
   border-right: 0.5px solid white;
 }
-.block-reference .block__container--borderless {
-  border-right: 0.5px solid white;
+.block-reference .block__item--borderless {
+  border-right: none;
+}
+.block-reference .block__item--borderless:hover {
+  border-right: none;
 }
 .block-reference .block-reference__arrow {
   align-items: end;
