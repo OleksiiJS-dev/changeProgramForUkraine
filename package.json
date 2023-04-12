@@ -1,0 +1,19 @@
+{
+  "name": "changeprogramforukraine",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksiiJS-dev/changeProgramForUkraine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksiiJS-dev/changeProgramForUkraine/issues"
+  },
+  "homepage": "https://github.com/OleksiiJS-dev/changeProgramForUkraine#readme",
+  "description": ""
+}
