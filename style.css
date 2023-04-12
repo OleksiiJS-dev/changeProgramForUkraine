@@ -15,13 +15,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
+  padding-top: 150px;
 }
 .block-info .block-info__container {
   max-width: 1020px;
   margin: 0 auto;
 }
-.block-info .block-info__container .block-info__h1 {
-  padding-top: 150px;
+.block-info .block-info__container .block-info__title {
   padding-bottom: 30px;
   font-weight: 700;
   font-size: 16px;
@@ -38,6 +38,79 @@ body {
   letter-spacing: -0.03em;
   text-transform: uppercase;
   opacity: 0.9;
+}
+
+.block-reference {
+  display: flex;
+}
+.block-reference .block-reference__item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  justify-content: space-between;
+  border-right: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+.block-reference .block-reference__item .block-reference__container {
+  max-width: 200px;
+  margin-top: 50px;
+  padding: 0 110px 0 50px;
+}
+.block-reference .block-reference__item .block-reference__container .block-reference__count {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.block-reference .block-reference__item .block-reference__container .block-reference__h3 {
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.block-reference .block-reference__item .block-reference__container .block-reference__description {
+  padding-top: 70px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  opacity: 0.6;
+}
+.block-reference .block-reference__item:hover {
+  color: #FFFFFF;
+  background-color: #0536FC;
+  border-right: 0.5px solid white;
+}
+.block-reference .block__container--borderless {
+  border-right: 0.5px solid white;
+}
+.block-reference .block-reference__arrow {
+  align-items: end;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 27px;
+}
+
+@media all and (max-width: 1444px) {
+  .block-reference__description {
+    min-width: 200px;
+  }
+}
+@media all and (max-width: 1444px) {
+  .block-reference__container {
+    max-width: 200px;
+    margin-top: 50px;
+    padding: 0 55px 0 25px;
+  }
+}
+@media all and (max-width: 1135px) {
+  .block-reference {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
