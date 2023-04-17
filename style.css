@@ -9,6 +9,49 @@ body {
   font-style: normal;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1340px;
+  margin: 0 auto;
+}
+.header .header-nav {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.85;
+}
+.header .header-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  gap: 40px;
+}
+.header .header-nav ul li {
+  display: flex;
+}
+.header .header-nav ul li div {
+  margin-right: 10px;
+}
+.header .header-language {
+  display: flex;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #0536FC;
+  opacity: 0.85;
+}
+
 .block-info {
   background: url(./images/bg.png);
   background-position: center;
